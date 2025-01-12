@@ -1,0 +1,59 @@
+{
+    "header": {
+      "title": "Antártica Chilena",
+      "subtitle": "Exploración y Ciencia en la Armada",
+      "menu": ["Bases Navales", "Buques", "Historia", "Investigaciones"]
+    },
+    "sections": {
+      "hero": {
+        "title": "Exploración en el continente blanco",
+        "image": "images/hero.jpg"
+      },
+      "basesNavales": {
+        "title": "Bases Navales",
+        "description": "Explora las bases de la Armada en la Antártica.",
+        "mapImage": "images/map.png"
+      },
+      "buques": {
+        "title": "Buques",
+        "description": "Conoce los detalles técnicos de nuestros buques.",
+        "items": [
+          {
+            "name": "Almirante Viel",
+            "image": "images/almirante_viel.png",
+            "details": "Características técnicas y detalles."
+          },
+          {
+            "name": "Aquiles",
+            "image": "images/aquiles.png",
+            "details": "Características técnicas y detalles."
+          }
+        ]
+      },
+      "historia": {
+        "title": "Historia",
+        "description": "Conoce las expediciones más importantes.",
+        "timeline": [
+          {
+            "year": 1947,
+            "title": "Primera Expedición",
+            "details": "Detalles sobre esta expedición histórica."
+          }
+        ]
+      },
+      "investigaciones": {
+        "title": "Investigaciones",
+        "description": "Conoce los trabajos científicos desarrollados en la Antártica.",
+        "items": [
+          {
+            "title": "Título de la Investigación",
+            "details": "Detalles sobre la investigación y los científicos responsables."
+          }
+        ]
+      }
+    },
+    "footer": {
+      "text": "© 2024 Armada de Chile. Todos los derechos reservados."
+    }
+  }
+  
