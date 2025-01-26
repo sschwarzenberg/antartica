@@ -118,15 +118,14 @@ const data = {
   style.innerHTML = `
     .interactive-map {
       position: relative;
-      width: 100%;
-      height: 1000px;
+      width: 50vw;
+      height: 100%;
       overflow: hidden;
       transition: transform 2s ease, width 2s ease, height 2s ease;
     }
     .map-image {
       width: 100%;
       height: auto;
-      transition: transform 2s ease;
     }
     .map-points {
       position: absolute;
@@ -154,9 +153,11 @@ const data = {
       border-radius: 5px;
     }
     .interactive-map.shrink {
-      width: 40%;
-      height: 250px;
+      width: 200vw;
       transform: rotate(45deg);
+    }
+    .interactive-map.shrink .map-image {
+      width: 100%;
     }
   `;
   document.head.appendChild(style);
